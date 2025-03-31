@@ -38,6 +38,7 @@ public class Item : MonoBehaviour
             if(gameObject.tag == slot[0].gameObject.tag)
             {
                 transform.position = slot[0].transform.position;
+                ScoreManager.instance.AddPoint();
                 slot[0].PLaced();
                 placed = true;
                 Debug.Log("bien1");
@@ -54,6 +55,7 @@ public class Item : MonoBehaviour
             if (gameObject.tag == slot[1].gameObject.tag)
             {
                 transform.position = slot[1].transform.position;
+                ScoreManager.instance.AddPoint();
                 slot[1].PLaced();
                 placed = true;
                 Debug.Log("bien2");
@@ -70,6 +72,7 @@ public class Item : MonoBehaviour
             if (gameObject.tag == slot[2].gameObject.tag)
             {
                 transform.position = slot[2].transform.position;
+                ScoreManager.instance.AddPoint();
                 slot[2].PLaced();
                 placed = true;
                 Debug.Log("bien3");

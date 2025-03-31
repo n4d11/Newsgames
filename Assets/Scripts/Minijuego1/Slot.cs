@@ -5,11 +5,10 @@ using UnityEngine.SceneManagement;
 public class Slot : MonoBehaviour
 {
     public SpriteRenderer Renderer;
+
     public void PLaced()
     {
         Debug.Log("placed"); 
-
-        
-            SceneManager.LoadScene("Menu");
     }
+   
 }
