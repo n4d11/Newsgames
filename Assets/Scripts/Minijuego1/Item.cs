@@ -5,7 +5,8 @@ public class Item : MonoBehaviour
     [SerializeField] private SpriteRenderer renderer;
     private bool dragging, placed;
     private Vector2 offset, originalPosition;
-    private Slot slot;
+    public Slot slot;
+    
 
     public void Init(Slot slot)
     {
