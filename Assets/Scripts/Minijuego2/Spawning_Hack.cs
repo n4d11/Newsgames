@@ -29,7 +29,7 @@ public class Spawning_Hack : MonoBehaviour
         {
             SceneManager.LoadScene("Minijuego 3");
         }
-        Show.text = "Wave: " + waveNum + "/10";
+        Show.text = "Wave: " + waveNum + "/3";
     }
 
     IEnumerator Spawner()
