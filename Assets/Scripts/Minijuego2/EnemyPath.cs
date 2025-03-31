@@ -10,7 +10,7 @@ public class EnemyPath : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        speed = Random.Range(0.75f, 2f);
+        speed = Random.Range(0.75f, 1f);
         ending = GameObject.FindGameObjectWithTag("Player").transform;
         StartCoroutine("Pathway");
     }

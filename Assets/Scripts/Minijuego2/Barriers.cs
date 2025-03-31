@@ -9,6 +9,9 @@ public class Barriers : MonoBehaviour
     private bool BarrierActiveAb;
     private bool BarrierActiveI;
     public float BarrierUpTime;
+
+    public GameObject Wave1;
+    public GameObject Button;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -89,5 +92,12 @@ public class Barriers : MonoBehaviour
         yield return new WaitForSeconds(BarrierUpTime);
         Barrier[3].SetActive(false);
         BarrierActiveI = false;
+    }
+
+
+    public void Starter()
+    {
+        Wave1.SetActive(true);
+        Destroy(Button);
     }
 }
