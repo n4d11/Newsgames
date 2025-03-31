@@ -12,13 +12,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: EstanteriaSlot 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2766616088380449858, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_TagString
+      value: Cereal
+      objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.75
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.z

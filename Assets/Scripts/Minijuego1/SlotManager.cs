@@ -17,14 +17,15 @@ public class SlotManager : MonoBehaviour
     void Spawn()
     {
 
-        var randomSet = slotPrefabs.OrderBy(s=>Random.value).Take(3).ToList();
+       // var randomSet = slotPrefabs.OrderBy(s=>Random.value).Take(3).ToList();
 
-        for (int i = 0; i < randomSet.Count; i++)
+        for (int i = 0; i < slotPrefabs.Count; i++)
         {
-            var spawnedSlot = Instantiate(randomSet[i], slotParent.GetChild(i).position,Quaternion.identity);
+            var spawnedSlot = Instantiate(slotPrefabs[i], slotParent.GetChild(i).position,Quaternion.identity);
 
             var spawnedItem = Instantiate(itemPrefab, itemParent.GetChild(i).position, Quaternion.identity);
             spawnedItem.Init(spawnedSlot);
+            spawnedItem.gameObject.tag = spawnedSlot.tag;
         }
     }
 }

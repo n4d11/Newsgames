@@ -148,4 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderer: {fileID: 8691407922562906385}
-  slot: {fileID: 7177169784629926413, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+  slot:
+  - {fileID: 7003930138933556429, guid: 4ede7e00eb418d24cb1196ad180fe114, type: 3}
+  - {fileID: 7003930138933556429, guid: 76a103af726c4d44cbe31777a10afda2, type: 3}
+  - {fileID: 7003930138933556429, guid: 48886d448920dc04e97de88e12f06ff0, type: 3}

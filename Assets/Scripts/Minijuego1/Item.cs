@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Item : MonoBehaviour
@@ -5,8 +6,8 @@ public class Item : MonoBehaviour
     [SerializeField] private SpriteRenderer renderer;
     private bool dragging, placed;
     private Vector2 offset, originalPosition;
-    public Slot slot;
-    
+    public Slot[] slot;
+
 
     public void Init(Slot slot)
     {
@@ -32,19 +33,55 @@ public class Item : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        if (Vector2.Distance(transform.position, slot.transform.position) < 3)
+        if (Vector2.Distance(transform.position, slot[0].transform.position) < 3)
         {
-            transform.position = slot.transform.position;
-            slot.PLaced();
-            placed = true;
-            Debug.Log("bien");
+            if(gameObject.tag == slot[0].gameObject.tag)
+            {
+                transform.position = slot[0].transform.position;
+                slot[0].PLaced();
+                placed = true;
+                Debug.Log("bien1");
+            }
+            else
+            {
+                transform.position = originalPosition;
+                dragging = false;
+                Debug.Log("mal");
+            }
         }
-        else
+        if (Vector2.Distance(transform.position, slot[1].transform.position) < 3)
         {
-            transform.position = originalPosition;
-            dragging = false;
-            Debug.Log("mal");
-        }   
+            if (gameObject.tag == slot[1].gameObject.tag)
+            {
+                transform.position = slot[1].transform.position;
+                slot[1].PLaced();
+                placed = true;
+                Debug.Log("bien2");
+            }
+            else
+            {
+                transform.position = originalPosition;
+                dragging = false;
+                Debug.Log("mal");
+            }
+        }
+        if (Vector2.Distance(transform.position, slot[2].transform.position) < 3)
+        {
+            if (gameObject.tag == slot[2].gameObject.tag)
+            {
+                transform.position = slot[2].transform.position;
+                slot[2].PLaced();
+                placed = true;
+                Debug.Log("bien3");
+            }
+            else
+            {
+                transform.position = originalPosition;
+                dragging = false;
+                Debug.Log("mal");
+            }
+        }
+         
     }
     Vector2 GetMousePos()
     {
