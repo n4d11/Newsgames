@@ -5,6 +5,7 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public int score = 0;
+    public GameObject Ending;
 
     private void Update()
     {
@@ -13,6 +14,7 @@ public class ScoreManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        Ending.SetActive(false);
     }
     public void AddPoint()
     {
@@ -23,7 +25,12 @@ public class ScoreManager : MonoBehaviour
     {
         if(score == 3)
         {
-            SceneManager.LoadScene(2);
+            Ending.SetActive(true);
         }
+    }
+
+    public void Continue()
+    {
+        SceneManager.LoadScene("Minijuego 2");
     }
 }

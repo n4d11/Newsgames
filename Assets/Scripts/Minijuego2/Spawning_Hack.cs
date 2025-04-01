@@ -12,9 +12,13 @@ public class Spawning_Hack : MonoBehaviour
     public GameObject[] Hacks;
     private int waveNum = 0;
     public TextMeshProUGUI Show;
+
+    public GameObject Player;
+    public GameObject Ending;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Player.SetActive(true);
         Spawning = false;
     }
 
@@ -27,7 +31,10 @@ public class Spawning_Hack : MonoBehaviour
         }
         if (waveNum >3)
         {
-            SceneManager.LoadScene("Minijuego 3");
+            Player.SetActive(false);
+            StopCoroutine(Spawner());
+            Spawning=true;
+            Ending.SetActive(true);
         }
         Show.text = "Wave: " + waveNum + "/3";
     }
@@ -45,5 +52,10 @@ public class Spawning_Hack : MonoBehaviour
         }
         yield return new WaitForSeconds(RandomAmount + 2);
         Spawning=false;
+    }
+
+    public void Continue()
+    {
+        SceneManager.LoadScene("Minijuego 3");
     }
 }

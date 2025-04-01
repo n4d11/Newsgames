@@ -25,11 +25,13 @@ public class Enemy_Spawn : MonoBehaviour
     IEnumerator SpawnEnemy()
     {
         yield return new WaitForSeconds(0.5f);
-        Instantiate(Enemy, positions[Random.Range(0,3)]);
+        Instantiate(Enemy, positions[Random.Range(0,2)]);
         yield return new WaitForSeconds(0.5f);
-        Instantiate(Enemy, positions[Random.Range(3, 6)]);
+        Instantiate(Enemy, positions[Random.Range(2, 4)]);
         yield return new WaitForSeconds(0.5f);
-        Instantiate(Enemy, positions[Random.Range(6, 9)]);
-        SpawnLimit=true;
+        Instantiate(Enemy, positions[Random.Range(4, 6)]);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(Enemy, positions[Random.Range(6, 8)]);
+        SpawnLimit =true;
     }
 }
