@@ -37,7 +37,7 @@ public class LevelManager : MonoBehaviour
         Count.text = points + "/3";
         if (points > 2)
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene(10);
         }
     }
 }

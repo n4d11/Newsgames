@@ -9,9 +9,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1435556452864018167, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_Size.x
+      value: 12.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435556452864018167, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_Size.y
+      value: 12.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435556452864018167, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1526217501636332173, guid: 0e8d1e48fe1468f4b983742c52ec1321, type: 3}
+      objectReference: {fileID: 2434089923501593192, guid: ca40a5d36879a554b92a1f8a971992ab, type: 3}
+    - target: {fileID: 1435556452864018167, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2766616088380449858, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_Name
       value: EstanteriaSlot 3
@@ -21,12 +33,24 @@ PrefabInstance:
       value: Galletas
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.38
+      value: -1.65
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.98
+      value: -2.84
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.z

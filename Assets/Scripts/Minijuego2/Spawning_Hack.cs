@@ -27,7 +27,7 @@ public class Spawning_Hack : MonoBehaviour
         }
         if (waveNum >3)
         {
-            SceneManager.LoadScene("Minijuego 3");
+            SceneManager.LoadScene(7);
         }
         Show.text = "Wave: " + waveNum + "/3";
     }

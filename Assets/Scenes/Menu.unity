@@ -281,7 +281,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1441716351}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Nivel1
+        m_MethodName: escena
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

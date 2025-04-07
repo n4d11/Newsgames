@@ -23,7 +23,7 @@ public class ScoreManager : MonoBehaviour
     {
         if(score == 3)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(4);
         }
     }
 }

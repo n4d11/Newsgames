@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1418857376321372471, guid: f889febe9532e424e9f215df820e8a4f, type: 3}
+    - target: {fileID: 1435556452864018167, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2766616088380449858, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_Name
       value: EstanteriaSlot 2
@@ -21,12 +25,24 @@ PrefabInstance:
       value: donuts
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.17
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.28
+      value: -4.28
       objectReference: {fileID: 0}
     - target: {fileID: 5087323968545493889, guid: 259dc9c080b84ac4f8c2ae46eaf98404, type: 3}
       propertyPath: m_LocalPosition.z
