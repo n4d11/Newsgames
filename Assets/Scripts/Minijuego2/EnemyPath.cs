@@ -31,10 +31,14 @@ public class EnemyPath : MonoBehaviour
             yield return null;
             }
         }
-        while(transform.position != ending.position)
+        if(ending != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, ending.position, speed * Time.deltaTime);
-            yield return null;
+            while(transform.position != ending.position)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, ending.position, speed * Time.deltaTime);
+                yield return null;
+            }
         }
+
     }
 }

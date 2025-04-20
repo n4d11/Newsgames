@@ -10,10 +10,13 @@ public class LevelManager : MonoBehaviour
     public static LevelManager Instance;
     public TextMeshProUGUI Count;
 
+    public GameObject next;
+
     private int points = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        next.SetActive(false);
         Instance = this;
         PlayerSpawn.SetActive(false);
         EnemySpawn.SetActive(false);
@@ -37,7 +40,12 @@ public class LevelManager : MonoBehaviour
         Count.text = points + "/3";
         if (points > 2)
         {
-            SceneManager.LoadScene(10);
+            next.SetActive(true);
         }
+    }
+
+    public void Final()
+    {
+        SceneManager.LoadScene(10);
     }
 }

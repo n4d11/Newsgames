@@ -5,6 +5,7 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public int score = 0;
+    public GameObject canvasfinal;
 
     private void Update()
     {
@@ -12,6 +13,7 @@ public class ScoreManager : MonoBehaviour
     }
     private void Awake()
     {
+        canvasfinal.gameObject.SetActive(false);
         instance = this;
     }
     public void AddPoint()
@@ -23,7 +25,12 @@ public class ScoreManager : MonoBehaviour
     {
         if(score == 3)
         {
-            SceneManager.LoadScene(4);
+            canvasfinal.SetActive(true);
         }
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(4);
     }
 }
