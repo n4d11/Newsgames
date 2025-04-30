@@ -1836,10 +1836,10 @@ MonoBehaviour:
   CancelB: {fileID: 1934256013}
   Trabajos:
   - "Busco un dise\xF1ador"
-  - Dame Trabajo
-  - Dinero Gratis?
-  - Porfi Ayudame
-  - Coge mi dinero
+  - Se necesita programador
+  - En busca de artista
+  - "Se requiere t\xE9cnico"
+  - Trabajo facil dinero facil
   MinPrecio: 150
   MaxPrecio: 300
 --- !u!4 &751274931
@@ -2213,10 +2213,10 @@ MonoBehaviour:
   CancelB: {fileID: 1268767626}
   Trabajos:
   - "Busco un dise\xF1ador"
-  - Dame Trabajo
-  - Dinero Gratis?
-  - Porfi Ayudame
-  - Coge mi dinero
+  - Se necesita programador
+  - En busca de artista
+  - "Se requiere t\xE9cnico"
+  - Trabajo facil dinero facil
   MinPrecio: 150
   MaxPrecio: 300
 --- !u!1 &1251263899
@@ -2890,119 +2890,6 @@ RectTransform:
   m_AnchoredPosition: {x: 749, y: -26}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1453907801
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 466124079271686081, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 384520424}
-    - target: {fileID: 466124079271686081, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Continuar
-      objectReference: {fileID: 0}
-    - target: {fileID: 466124079271686081, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Minigame2Manager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 518817316505272654, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_Name
-      value: NoticiaFinalNivel
-      objectReference: {fileID: 0}
-    - target: {fileID: 518817316505272654, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1189081560392823369, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 35aebc31ff5054d48a8ebb9b7bd460ac, type: 3}
 --- !u!1 &1713651655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3639,10 +3526,10 @@ MonoBehaviour:
   CancelB: {fileID: 1933178978}
   Trabajos:
   - "Busco un dise\xF1ador"
-  - Dame Trabajo
-  - Dinero Gratis?
-  - Porfi Ayudame
-  - Coge mi dinero
+  - Se necesita programador
+  - En busca de artista
+  - "Se requiere t\xE9cnico"
+  - Trabajo facil dinero facil
   MinPrecio: 150
   MaxPrecio: 300
 --- !u!4 &6953465666009855130
@@ -3669,4 +3556,3 @@ SceneRoots:
   - {fileID: 1713651659}
   - {fileID: 138325749}
   - {fileID: 384520425}
-  - {fileID: 1453907801}
