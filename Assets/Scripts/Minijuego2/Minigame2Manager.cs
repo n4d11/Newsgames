@@ -20,12 +20,11 @@ public class Minigame2Manager : MonoBehaviour
     public TextMeshProUGUI MoneyText;
 
     public GameObject PaperGenerators;
-    public GameObject CanvasFinal;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         PaperGenerators.SetActive(false);
-        CanvasFinal.SetActive(false);
         StartingCanvas.gameObject.SetActive(true);
         instance = this;
     }
@@ -36,7 +35,7 @@ public class Minigame2Manager : MonoBehaviour
         if( currentMoney > Goal )
         {
             StopCoroutine("Contador");
-            CanvasFinal.SetActive(true);
+            Continuar();
         }
     }
 
@@ -62,6 +61,6 @@ public class Minigame2Manager : MonoBehaviour
 
     public void Continuar()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(5);
     }
 }

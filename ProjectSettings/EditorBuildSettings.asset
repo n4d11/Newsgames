@@ -9,38 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: fc266b9866f5e924c9565ae26fc75a4f
   - enabled: 1
-    path: Assets/Scenes/Escena 1.unity
-    guid: f23b3e0ec38070b4085af6c994d081e3
-  - enabled: 1
-    path: Assets/Scenes/Escena 2.unity
-    guid: d5be4c15e818cec4cbda21158258ba1a
+    path: "Assets/Scenes/Cinem\xE1tica de Introducci\xF3n.unity"
+    guid: 3196fab08d14a7c42bb41017f2676918
   - enabled: 1
     path: Assets/Scenes/Minijuego 1.unity
     guid: 30369c7d2119eae43af7f590bb798e3d
   - enabled: 1
-    path: Assets/Scenes/Escena 3.unity
-    guid: b0dbd3189d14a8047a29aced1b8f21fd
-  - enabled: 1
-    path: Assets/Scenes/Escena 4.unity
-    guid: 39df8e2276b93a64ab041f0603a4ff32
+    path: "Assets/Scenes/Cinem\xE1tica post-Nivel 1.unity"
+    guid: 0d132cb6085be3a498d4a6bb1beca4a3
   - enabled: 1
     path: Assets/Scenes/Minijuego 2.unity
     guid: 51c63bb6a843f5b4cb9a71591f8538b3
   - enabled: 1
-    path: Assets/Scenes/Escena 5.unity
-    guid: 96084182a5fd02746a8685cf31785d28
-  - enabled: 1
-    path: Assets/Scenes/Escena 6.unity
-    guid: 24b3f43742480884f80ac4fb08dd2c6f
+    path: "Assets/Scenes/Cinem\xE1tica post-Nivel 2.unity"
+    guid: 55fb95e8cf7e70743bbbe8ebf9d44bda
   - enabled: 1
     path: Assets/Scenes/Minijuego 3.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Escena 7.unity
-    guid: a24850f90ba4b494c93b57c91dffa6ba
-  - enabled: 0
-    path: Assets/Scenes/Escena 7.unity
-    guid: a24850f90ba4b494c93b57c91dffa6ba
+    path: "Assets/Scenes/Cinem\xE1tica post-Nivel 3.unity"
+    guid: ad13989334de56248850ebfed4cff537
+  - enabled: 1
+    path: "Assets/Scenes/Cinem\xE1tica final.unity"
+    guid: 526bfb9ecaf6f0d47b3e5358484db4ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

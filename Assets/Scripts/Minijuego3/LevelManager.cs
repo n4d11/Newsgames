@@ -40,12 +40,12 @@ public class LevelManager : MonoBehaviour
         Count.text = points + "/3";
         if (points > 2)
         {
-            next.SetActive(true);
+            Final();
         }
     }
 
     public void Final()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(7);
     }
 }
