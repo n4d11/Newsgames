@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      calle_nv_1_2_0: 7546342761557545960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
